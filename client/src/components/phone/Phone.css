@@ -1,0 +1,21 @@
+.phone {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 30px;
+  padding: 20px;
+  width: 35vw;
+  max-width: 400px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone__header {
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.phone__content {
+  display: flex;
+  flex-direction: column;
+}
